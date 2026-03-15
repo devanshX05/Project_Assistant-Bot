@@ -76,7 +76,7 @@ if __name__ == "__main__":
     while True:
         try:
             print("Waiting for wake word...")
-            audio = record_audio(duration=2)
+            audio = record_audio(duration=3)
             word = recognizer.recognize_google(audio)
             print("Heard:", word)
 
