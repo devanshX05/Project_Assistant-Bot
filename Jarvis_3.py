@@ -44,9 +44,12 @@ def processCommand(command):
         webbrowser.open("http://facebook.com")
     elif "open youtube" in command.lower():
         webbrowser.open("http://youtube.com")
-    elif "open linkedin" in command.lower():
+    elif "open Github" in command.lower():
         webbrowser.open("http://linkedin.com")
-
+    elif "open linkedin" in command.lower():
+        webbrowser.open("https://github.com/")
+    elif "open Gmail" in command.lower():
+        webbrowser.open("https://mail.google.com/mail/u/0/#inbox")
 
 
 
