@@ -50,6 +50,8 @@ def processCommand(command):
         webbrowser.open("https://github.com/")
     elif "open Gmail" in command.lower():
         webbrowser.open("https://mail.google.com/mail/u/0/#inbox")
+    elif "open chatgpt" in command.lower():
+        webbrowser.open("https://chatgpt.com/")
 
 
 
